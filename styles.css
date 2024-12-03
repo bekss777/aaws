@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    padding: 1rem;
+}
+
+#products {
+    flex: 3;
+    margin-right: 1rem;
+}
+
+#cart {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
